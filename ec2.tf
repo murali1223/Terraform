@@ -1,6 +1,6 @@
 resource "aws_key_pair" "auth" {
   key_name   = "try-priv"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwHOnavEmAkkdlP6jtTt5W/LoII4TXEjRfeRYFH2aCXqga33JTtcrC2GY+n7Un6VCaxHLyRKibXH4QLIUCTl/tRkjO8zGgPBqFq7KEIes+8XQDyBZgyJ6EEPJhfvVgJLxIzzLMFlAA5oXAEiOUPamW8QkaVGbrS6E6h8Z0GpHxq64/d2xNl5G44+eTkMvv+MUFkYzNgV9Tn2hmwVCHtWHEK9th5BYwZfGlILhbqVcWiwfnL31OucTKgDUSW79lMf3vmjpx9tG8YHpNuElBS6NmeT+LElQSQwlfxhMcEpyEuVBwwJGyaXHr/ATi9Nc2duTHtvdg+uZYxXLMdlcKPrsD try-priv"
+  public_key = ".............................."
 }
 resource "aws_launch_configuration" "autoscale_launch" {
   image_id = "${lookup(var.aws_amis, var.aws_region)}"
